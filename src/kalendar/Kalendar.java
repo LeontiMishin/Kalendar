@@ -13,8 +13,7 @@ public class Kalendar {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Программа для того чтобы узнать название года.");
-        System.out.println("-------------------------------------------------");
+        System.out.println("Программа выдаёт название года по номеру");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите год:");
         int year= scanner.nextInt();
@@ -86,5 +85,3 @@ public class Kalendar {
         }
     }
     }
-    
-}
